@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "John",
+      "linkedin": "https://www.linkedin.com/in/eng-john-mwangi/"
+    },
+    {
+      "id": "2",
+      "username": "Mwangi",
+      "linkedin": "https://www.linkedin.com/in/eng-john-mwangi/"
+    },
+    {
+      "id": "3",
+      "username": "Gikundi",
+      "linkedin": "https://www.linkedin.com/in/eng-john-mwangi/"
+    }
+  ],
+  "subreddits": [
+    { "id": "1", "name": "javascript" },
+    { "id": "2", "name": "reactjs" },
+    { "id": "3", "name": "webdev" }
+  ],
+  "posts": [
+    { "id": "1", "title": "Learning JSON Server", "content": "This is my first mock post!", "userId": 1, "subredditId": 1 },
+    { "id": "2", "title": "React is awesome 🚀", "content": "Hooks changed the game.", "userId": 2, "subredditId": 2 },
+    { "id": "3", "title": "Sharing free knowledge", "content": "Happy to join this community!", "userId": 3, "subredditId": 1 },
+    { "id": "4", "title": "Debugging tips by john mwangi", "content": "Console.log is your best friend 😂", "userId": 1, "subredditId": 3 },
+    { "id": "5", "title": "Gikundi React Router tricks", "content": "Dynamic routes are powerful.", "userId": 3, "subredditId": 2 },
+    { "id": "6", "title": "Best JS resources?", "content": "What do you all recommend for mastering JavaScript?", "userId": 2, "subredditId": 1 },
+    { "id": "cdfd", "title": "My first API post by John", "content": "Testing json-server", "userId": 1, "subredditId": 2 }
+  ],
+  "comments": [
+    { "id": "1", "postId": 1, "userId": 2, "text": "Nice tutorial by September cohot!" },
+    { "id": "2", "postId": 1, "userId": 3, "text": "Thanks for sharing, John!" },
+    { "id": "3", "postId": 2, "userId": 1, "text": "Totally agree, Mwangi!" },
+    { "id": "4", "postId": 3, "userId": 2, "text": "Welcome, Gikundi!" },
+    { "id": "5", "postId": 4, "userId": 3, "text": "Haha true, but use breakpoints too!" },
+    { "id": "6", "postId": 5, "userId": 1, "text": "Yes, React Router v6 is so clean." },
+    { "id": "7", "postId": 6, "userId": 3, "text": "Check MDN and JavaScript.info, both are gold." }
+  ]
+}
